@@ -1,0 +1,259 @@
+{
+  "defaultPack": "daily",
+  "packs": [
+    {
+      "id": "halloween",
+      "folder": "Halloween_2026",
+      "title": "Halloween 2026 (Golden Rule)",
+      "actions": [
+        {
+          "id": 1,
+          "filename": "01_Halloween_Witchs_Wheel_overlay.html",
+          "name": "Halloween Witchs Wheel",
+          "slot": 1
+        },
+        {
+          "id": 2,
+          "filename": "02_Halloween_Witchs_Lucky_Dice_overlay.html",
+          "name": "Halloween Witchs Lucky Dice",
+          "slot": 2
+        },
+        {
+          "id": 3,
+          "filename": "03_Halloween_Pick_A_Pumpkin_overlay.html",
+          "name": "Halloween Pick A Pumpkin",
+          "slot": 3
+        },
+        {
+          "id": 4,
+          "filename": "04_Halloween-Crystal-Ball-overlay.html",
+          "name": "Halloween Crystal Ball",
+          "slot": 4
+        },
+        {
+          "id": 5,
+          "filename": "05_Halloween-Tarot-Draw-overlay.html",
+          "name": "Halloween Tarot Draw",
+          "slot": 5
+        },
+        {
+          "id": 6,
+          "filename": "06_Halloween-Witchs-Potion-overlay.html",
+          "name": "Halloween Witchs Potion",
+          "slot": 6
+        },
+        {
+          "id": 7,
+          "filename": "07_Halloween-Spider-Drop-overlay.html",
+          "name": "Halloween Spider Drop",
+          "slot": 7
+        },
+        {
+          "id": 8,
+          "filename": "08_Halloween-Bat-Race-overlay.html",
+          "name": "Halloween Bat Race",
+          "slot": 8
+        },
+        {
+          "id": 9,
+          "filename": "09_Halloween-Trick-or-Treat-Bag-overlay.html",
+          "name": "Halloween Trick Or Treat Bag",
+          "slot": 9
+        },
+        {
+          "id": 10,
+          "filename": "10_Halloween-Skull-Slots-overlay.html",
+          "name": "Halloween Skull Slots",
+          "slot": 10
+        },
+        {
+          "id": 11,
+          "filename": "11_Halloween-Ghost-Hunt-overlay.html",
+          "name": "Halloween Ghost Hunt",
+          "slot": 11
+        },
+        {
+          "id": 12,
+          "filename": "12_Halloween-Graveyard-Pick-overlay.html",
+          "name": "Halloween Graveyard Pick",
+          "slot": 12
+        },
+        {
+          "id": 13,
+          "filename": "13_Halloween-Magic-8-Ball-overlay.html",
+          "name": "Halloween Magic 8 Ball",
+          "slot": 13
+        },
+        {
+          "id": 14,
+          "filename": "14_Halloween-Candle-Challenge-overlay.html",
+          "name": "Halloween Candle Challenge",
+          "slot": 14
+        },
+        {
+          "id": 15,
+          "filename": "15_Halloween-Spell-Book-overlay.html",
+          "name": "Halloween Spell Book",
+          "slot": 15
+        },
+        {
+          "id": 16,
+          "filename": "16_Halloween-Black-Cat-Pick-overlay.html",
+          "name": "Halloween Black Cat Pick",
+          "slot": 16
+        },
+        {
+          "id": 17,
+          "filename": "17_Halloween-Poison-Apple-overlay.html",
+          "name": "Halloween Poison Apple",
+          "slot": 17
+        },
+        {
+          "id": 18,
+          "filename": "18_Halloween-Mystery-Coffin-overlay.html",
+          "name": "Halloween Mystery Coffin",
+          "slot": 18
+        },
+        {
+          "id": 19,
+          "filename": "19_Halloween-Pumpkin-Slots-overlay.html",
+          "name": "Halloween Pumpkin Slots",
+          "slot": 19
+        },
+        {
+          "id": 20,
+          "filename": "20_Halloween-Final-Boss-Battle-overlay.html",
+          "name": "Halloween Final Boss Battle",
+          "slot": 20
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "folder": "Daily_Pack_August_2026",
+      "title": "Daily Pack — August 2026 (Golden Rule)",
+      "actions": [
+        {
+          "id": 1,
+          "filename": "Daily-Pack-01-Spin-The-Wheel-overlay.html",
+          "name": "Spin The Wheel",
+          "slot": 1
+        },
+        {
+          "id": 2,
+          "filename": "Daily-Pack-02-Lucky-Dice-overlay.html",
+          "name": "Lucky Dice",
+          "slot": 2
+        },
+        {
+          "id": 3,
+          "filename": "Daily-Pack-03-Mystery-Box-overlay.html",
+          "name": "Mystery Box",
+          "slot": 3
+        },
+        {
+          "id": 4,
+          "filename": "Daily-Pack-04-Pick-A-Card-overlay.html",
+          "name": "Pick A Card",
+          "slot": 4
+        },
+        {
+          "id": 5,
+          "filename": "Daily-Pack-05-Lucky-Slots-overlay.html",
+          "name": "Lucky Slots",
+          "slot": 5
+        },
+        {
+          "id": 6,
+          "filename": "Daily-Pack-06-Time-Jackpot-overlay.html",
+          "name": "Time Jackpot",
+          "slot": 6
+        },
+        {
+          "id": 7,
+          "filename": "Daily-Pack-07-Emoji-Race-overlay.html",
+          "name": "Emoji Race",
+          "slot": 7
+        },
+        {
+          "id": 8,
+          "filename": "Daily-Pack-08-Cup-Shuffle-Adult-Wins-overlay.html",
+          "name": "Cup Shuffle",
+          "slot": 8
+        },
+        {
+          "id": 9,
+          "filename": "Daily-Pack-09-Bullseye-Reward-Reveal-overlay.html",
+          "name": "Bullseye",
+          "slot": 9
+        },
+        {
+          "id": 10,
+          "filename": "Daily-Pack-10-Pick-A-Gem-overlay.html",
+          "name": "Pick A Gem",
+          "slot": 10
+        },
+        {
+          "id": 11,
+          "filename": "Daily-Pack-11-Balloon-Pop-overlay.html",
+          "name": "Balloon Pop",
+          "slot": 11
+        },
+        {
+          "id": 12,
+          "filename": "Daily-Pack-12-Lucky-Locker-overlay.html",
+          "name": "Lucky Locker",
+          "slot": 12
+        },
+        {
+          "id": 13,
+          "filename": "Daily-Pack-13-Mystery-Tiles-Fixed-overlay.html",
+          "name": "Mystery Tiles",
+          "slot": 13
+        },
+        {
+          "id": 14,
+          "filename": "Daily-Pack-14-Rocket-Launch-Adult-overlay.html",
+          "name": "Rocket Launch",
+          "slot": 14
+        },
+        {
+          "id": 15,
+          "filename": "Daily-Pack-15-Treasure-Chest-Final-Top-Reveal-overlay.html",
+          "name": "Treasure Chest",
+          "slot": 15
+        },
+        {
+          "id": 16,
+          "filename": "Daily-Pack-16-Lucky-Strike-Adult-Prizes-overlay.html",
+          "name": "Lucky Strike",
+          "slot": 16
+        },
+        {
+          "id": 17,
+          "filename": "Daily-Pack-17-Lucky-Shot-True-Net-Entry-overlay.html",
+          "name": "Lucky Shot",
+          "slot": 17
+        },
+        {
+          "id": 18,
+          "filename": "Daily-Pack-18-Star-Pick-Adult-Prizes-overlay.html",
+          "name": "Star Pick",
+          "slot": 18
+        },
+        {
+          "id": 19,
+          "filename": "Daily-Pack-19-Mini-Race-overlay.html",
+          "name": "Mini Race",
+          "slot": 19
+        },
+        {
+          "id": 20,
+          "filename": "Daily-Pack-20-Final-Showdown-overlay.html",
+          "name": "Final Showdown",
+          "slot": 20
+        }
+      ]
+    }
+  ]
+}

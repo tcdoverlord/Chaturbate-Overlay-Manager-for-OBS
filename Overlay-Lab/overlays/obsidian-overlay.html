@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>StimTake Overlay Lab</title>
+  <link rel="stylesheet" href="overlay.css">
+</head>
+<body>
+  <main id="overlay-root" aria-label="Live supporter overlay">
+    <section class="leaderboard panel" id="leaderboard-panel">
+      <header class="panel-head">
+        <div>
+          <div class="eyebrow">LIVE SUPPORT</div>
+          <h1>TOP TIPPERS</h1>
+        </div>
+        <span class="period-pill">THIS SESSION</span>
+      </header>
+      <div class="vip-card">
+        <div class="crown" aria-hidden="true">♛</div>
+        <div class="vip-copy"><div class="eyebrow">SESSION LEADER</div><div id="vip-name" class="vip-name">Waiting for first tip</div></div>
+        <div id="vip-total" class="vip-total">—</div>
+      </div>
+      <ol id="top-list" class="top-list"><li class="empty-row">Waiting for tips…</li></ol>
+    </section>
+
+    <section class="stats" id="stats-panel" aria-label="Session stats">
+      <div class="stat panel"><span class="stat-label">TIPS</span><strong id="session-tips">0</strong></div>
+      <div class="stat panel"><span class="stat-label">TOKENS</span><strong id="session-tokens">0</strong></div>
+    </section>
+
+    <section id="goal-panel" class="goal panel" hidden>
+      <div class="goal-heading"><span>SESSION GOAL</span><strong id="goal-values">0 / 500</strong></div>
+      <div class="goal-track"><div id="goal-fill" class="goal-fill"></div></div>
+    </section>
+
+    <section id="last-tip" class="last-tip panel" aria-live="polite">
+      <div class="last-tip-icon" aria-hidden="true">✦</div>
+      <div class="last-tip-copy"><div class="eyebrow">LATEST SUPPORT</div><div id="last-tipper-value" class="last-tip-value">Waiting for tip…</div></div>
+      <div id="last-tip-amount" class="last-tip-amount"></div>
+    </section>
+
+    <div id="connection" class="connection" role="status"><span class="connection-dot"></span><span id="connection-text">Starting…</span></div>
+    <div id="toast" class="toast" aria-live="polite" aria-atomic="true"></div>
+    <div id="action-layer" class="action-layer" aria-hidden="true"><iframe id="action-frame" title="Tip action animation" sandbox="allow-scripts" allow="autoplay"></iframe></div>
+  </main>
+  <script src="overlay.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Electron build output
+release/
+dist/
+out/
+build/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+tmp-*
+temp/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local runtime data
+*.sqlite
+*.sqlite3
