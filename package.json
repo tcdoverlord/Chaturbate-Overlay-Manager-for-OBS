@@ -1,0 +1,63 @@
+{
+  "name": "chaturbate-20-overlay-studio",
+  "version": "1.5.5",
+  "description": "Chaturbate 20-overlay desktop studio with FIFO tip action queue and persistent OBS overlay",
+  "main": "desktop/main.js",
+  "author": "TCDOVERLORD",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis portable",
+    "test": "node Bridge/tests/integration-smoke.js"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.tcdoverlord.chaturbate20overlaystudio",
+    "productName": "Chaturbate 20-Overlay Studio",
+    "asar": false,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "desktop/**/*",
+      "Bridge/**/*",
+      "!Bridge/data/**/*",
+      "!Bridge/tests/**/*",
+      "!Bridge/README.md",
+      "!Bridge/.gitignore",
+      "package.json"
+    ],
+    "extraMetadata": {
+      "main": "desktop/main.js"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Chaturbate 20-Overlay Studio \u2014 Test Action Live Preview Fix",
+  "version": "1.5.4",
+  "defaultActionPack": "Halloween 2026",
+  "actionPacks": [
+    {
+      "id": "halloween",
+      "title": "Halloween 2026",
+      "actions": 20
+    },
+    {
+      "id": "daily",
+      "title": "Daily Pack \u2014 August 2026",
+      "actions": 20
+    }
+  ],
+  "apiTokenUi": false,
+  "features": [
+    "model lock",
+    "local test tips",
+    "20 configurable tip slots",
+    "20 Halloween HTML actions",
+    "20 Daily Pack HTML actions",
+    "OBS action wrappers that replay matching HTML when slot triggers",
+    "Chrome room extension",
+    "all 20 Halloween slots enabled by default",
+    "five-token price bands from 1\u20135 through 96\u2013100",
+    "responsive slot cards that wrap cleanly on narrow screens",
+    "Test This Action opens the persistent listening action URL and triggers the same event consumed by OBS Browser Sources",
+    "Import user ZIP packs of 20 HTML actions",
+    "Export current 20 actions as a reusable ZIP pack",
+    "Persist active pack selection"
+  ],
+  "actionHtmlFiles": 40,
+  "checks": [
+    "node syntax checks",
+    "bridge integration smoke test",
+    "overlay-lab smoke test",
+    "both action packs contain 20 HTML actions",
+    "Halloween default selection",
+    "action wrapper and raw HTML route smoke tests",
+    "default slot enablement and token-band validation",
+    "responsive card layout rules",
+    "Test action opens listening route without preview-only mode"
+  ],
+  "changes": [
+    "Fix preset token ranges and explicit save feedback"
+  ]
+}

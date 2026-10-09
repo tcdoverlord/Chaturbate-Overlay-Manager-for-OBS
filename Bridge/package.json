@@ -1,0 +1,13 @@
+{
+  "name": "chaturbate-20-overlay-bridge",
+  "version": "1.1.2",
+  "private": true,
+  "description": "Local Chaturbate model lock, browser-room tip detector, optional Events API, and 20 OBS overlays",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

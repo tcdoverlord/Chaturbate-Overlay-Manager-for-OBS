@@ -1,0 +1,8 @@
+{
+  "name": "stimtake-overlay-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Transparent OBS overlays for StimTake Studio and Chaturbate tip tracking",
+  "scripts": { "test": "node tests/smoke-test.js", "preview": "node preview-server.js" },
+  "engines": { "node": ">=18" }
+}
